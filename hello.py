@@ -1,2 +1,1 @@
-variable = "mi nombre"
-print(variable)
+print('Hola desde mi maquina')
