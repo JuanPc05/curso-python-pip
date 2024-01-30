@@ -1,0 +1,11 @@
+Lanzar un servidor desde un contenedor en Docker en lugar de hacerlo directamente desde tu PC tiene varias ventajas:
+
+Portabilidad: Al utilizar un contenedor de Docker, puedes estar seguro de que el servidor se ejecutará de la misma manera en cualquier sistema operativo o plataforma que tenga Docker instalado, lo que hace que sea más fácil mover el servidor entre diferentes entornos sin tener que preocuparse por las configuraciones específicas del sistema operativo.
+
+Aislamiento: Docker te permite aislar tu servidor y sus dependencias en un contenedor, lo que significa que no afectará a tu sistema operativo ni a otros servicios que se estén ejecutando en tu PC. Esto hace que sea más fácil manejar y mantener tu servidor de manera independiente.
+
+Escalabilidad: Si necesitas ejecutar varias instancias del mismo servidor o escalar el servidor para manejar una carga de trabajo más pesada, Docker te permite hacerlo de manera fácil y rápida al crear múltiples contenedores del mismo servidor. También puedes implementar tus contenedores de Docker en un clúster para una mayor capacidad de procesamiento y alta disponibilidad.
+
+Gestión de versiones: Al utilizar Docker para ejecutar tu servidor, puedes garantizar que la versión exacta del software que necesitas esté disponible y se ejecute de manera consistente en cualquier sistema. Puedes crear una imagen de tu servidor que contenga todas las dependencias necesarias y distribuir esa imagen a cualquier equipo para garantizar la consistencia de la versión.
+
+En resumen, Docker te permite ejecutar tu servidor de manera independiente y portátil, lo que hace que sea más fácil de manejar y mantener, y te da la flexibilidad de escalar y distribuir tu servidor de manera más efectiva.
